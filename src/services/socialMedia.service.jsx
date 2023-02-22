@@ -19,18 +19,18 @@ export const getPostByTag = async (tagName) => {
   return data;
 };
 
-export const getSocialMediaComments = async (idPost) => {
+export const getSocialMediaComments = async (postId) => {
   const result = await axios.get(
-    `https://dummyapi.io/data/v1/post/${idPost}/comment`,
+    `https://dummyapi.io/data/v1/post/${postId}/comment`,
     requestConfig
   );
   const data = result.data;
   return data;
 };
 
-export const getSocialMediaUserDetail = async (idUser) => {
+export const getSocialMediaUserDetail = async (userId) => {
   const result = await axios.get(
-    `https://dummyapi.io/data/v1/user/${idUser}`,
+    `https://dummyapi.io/data/v1/user/${userId}`,
     requestConfig
   );
   const data = result.data;

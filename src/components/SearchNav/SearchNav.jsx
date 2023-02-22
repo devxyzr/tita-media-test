@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
 import { BsSearch } from 'react-icons/bs';
-import { SocialMediaUsersContext } from '../../commons';
-import { useGetSocialMediaPost } from '../../hooks/useGetSocialMediaPost';
-import styles from './SearchNav.module.css';
 import { useAuth0 } from '@auth0/auth0-react';
+
+import styles from './SearchNav.module.css';
+import { useGetSocialMediaPost } from '../../hooks';
+import { SocialMediaUsersContext } from '../../commons';
 
 export const SearchNav = () => {
   const { isAuthenticated } = useAuth0();
@@ -17,7 +18,7 @@ export const SearchNav = () => {
           <input
             type="search"
             name="Filter"
-            placeholder="Search by #Tag"
+            placeholder="Search"
             value={searchTag}
             onChange={(event) => {
               const value = event.target.value.trim();

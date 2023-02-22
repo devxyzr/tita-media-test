@@ -1,10 +1,14 @@
-import { useAuth0 } from '@auth0/auth0-react';
-import React, { useContext } from 'react';
-import { SocialMediaUsersContext } from '../../commons';
 import { BiLike } from 'react-icons/bi';
+import React, { useContext } from 'react';
+import { useAuth0 } from '@auth0/auth0-react';
 import { FaRegCommentAlt } from 'react-icons/fa';
-import { useGetSocialMediaComments } from '../../hooks/useGetSocialMediaComments';
-import { useGetSocialMediaUserDetail } from '../../hooks/useGetSocialMediaUserDetail';
+
+import { SocialMediaUsersContext } from '../../commons';
+import {
+  useGetSocialMediaComments,
+  useGetSocialMediaUserDetail,
+} from '../../hooks';
+
 import styles from './PostCard.module.css';
 
 export const PostCard = ({ post }) => {

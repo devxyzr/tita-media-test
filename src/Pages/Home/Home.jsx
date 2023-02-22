@@ -1,14 +1,17 @@
 import React, { useContext } from 'react';
 import styles from './Home.module.css';
-import { Modal } from '../../components';
-import { Profile } from '../../components/Profile';
-import { PostCard } from '../../components/PostCard';
+import {
+  Modal,
+  Profile,
+  PostCard,
+  Auth0Button,
+  LandingPage,
+  CommentsCard,
+  SearchNav,
+  UserInfoCard,
+} from '../../components';
 import { SocialMediaUsersContext } from '../../commons';
-import { Auth0Button } from '../../components/Auth0Button';
-import { LandingPage } from '../../components/LandingPage';
-import { CommentsCard } from '../../components/CommentsCard';
-import { SearchNav } from '../../components/SearchNav/SearchNav';
-import { UserInfoCard } from '../../components/UserInfoCard/UserInfoCard';
+
 
 export const Home = () => {
   const {

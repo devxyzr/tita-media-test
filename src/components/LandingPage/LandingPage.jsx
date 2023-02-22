@@ -1,11 +1,12 @@
 import React from 'react';
-import { useAuth0 } from '@auth0/auth0-react';
-import styles from './LandingPage.module.css';
 import { BiLike } from 'react-icons/bi';
+import { useAuth0 } from '@auth0/auth0-react';
 import { FaRegCommentAlt } from 'react-icons/fa';
-import pdf from '../../assets/Ricardo_Cuartas_I.pdf';
-import imgProfile from '../../assets/profilePhoto.png';
-import imgPost from '../../assets/react.png';
+
+import styles from './LandingPage.module.css';
+import pdf from '../../assets/docs/Ricardo_Cuartas_I.pdf';
+import imgPost from '../../assets/ilustrations/react.png';
+import imgProfile from '../../assets/ilustrations/profilePhoto.png';
 
 export const LandingPage = () => {
   const { isAuthenticated } = useAuth0();

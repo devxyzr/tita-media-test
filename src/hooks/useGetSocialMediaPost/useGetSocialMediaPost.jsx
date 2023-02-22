@@ -6,7 +6,7 @@ export const useGetSocialMediaPost = ({ onMount }) => {
   const { searchTag, setSocialMediaPost } = useContext(SocialMediaUsersContext);
 
   const query = () => {
-    if (searchTag) {
+    if (searchTag && !searchTag.includes('#')) {
       getPostByTag(searchTag).then((result) => {
         setSocialMediaPost(result?.data);
       });
