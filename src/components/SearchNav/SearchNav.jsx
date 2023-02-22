@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import BsSearch from 'react-icons/bs';
+import { BsSearch } from 'react-icons/bs';
 import { SocialMediaUsersContext } from '../../commons';
 import { useGetSocialMediaPost } from '../../hooks/useGetSocialMediaPost';
 import styles from './SearchNav.module.css';
