@@ -1,0 +1,33 @@
+
+.buttonStyle {
+  background-color:  #62b273;
+  border: 2px solid black;
+  box-shadow: black 4px 4px 0 0;
+  height: 4rem;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttonStyle:hover {
+  background-color: #fff;
+}
+
+.buttonStyle:active {
+  box-shadow: black 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .buttonStyle {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}

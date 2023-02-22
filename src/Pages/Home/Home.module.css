@@ -1,0 +1,42 @@
+
+.mainContainer {
+    background-color: #f6ecea;
+}
+.headerContainer {
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    background-color:  #62b273;
+    padding: 1rem 3rem 1rem 3rem;
+    border-bottom: solid 0.2rem black;
+}
+.headerContainer h1 {
+    padding-right: 25rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+.mainPostCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:5rem;
+    padding-bottom: 10rem;
+}
+.notComment  {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.errorHome {
+    margin: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.errorHome h3 {
+    color: grey;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+}

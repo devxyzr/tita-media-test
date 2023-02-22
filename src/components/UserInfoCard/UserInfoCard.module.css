@@ -1,0 +1,46 @@
+.mainUserContainer {
+display: flex;
+flex-direction: column;
+font-size: 2rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+.userImg {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.userImg img{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    border: solid 0.2rem black;
+}
+.userName {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+ font-weight: 800;
+ line-height: 2rem;
+}
+.born {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.contactInfo {
+    padding: 0.5rem;
+line-height: 1.8rem;
+font-size: 1.8rem;
+}
+.headerInfo {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: solid 0.1rem black; 
+}
+.locationInfo {
+    padding: 0.5rem;
+    line-height: 1.8rem;
+    font-size: 1.8rem;
+}

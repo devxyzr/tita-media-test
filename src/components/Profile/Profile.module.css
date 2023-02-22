@@ -1,0 +1,33 @@
+
+.mainContainer {
+    font-size: 1rem;
+    font-weight: 300;
+}
+.profileContainer {
+    background-color: #62b273;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    width: 35rem;
+}
+.containImgProfile img {
+    border-radius: 50%;
+    border: solid 0.1rem black;
+    width: 7rem;
+    height: 7rem    
+}
+.infoUserContain {
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 0.5rem;
+margin-left: 1rem;
+}
+.infoUserContain h2{
+    font-size: 2rem;
+    line-height: 1.7rem;
+}
+.infoUserContain p {
+    font-size: 1.5rem;
+}

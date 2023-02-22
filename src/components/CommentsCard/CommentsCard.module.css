@@ -1,0 +1,38 @@
+
+.mainContainerComments  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: solid 0.1rem black;
+}
+
+.containUserInfo {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: solid 0.1rem black;
+}
+
+.containUserInfo img {
+    margin-right: 1rem;
+    border: solid 0.1rem black;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%; 
+}
+
+.containUserInfo div {
+font-size: 1.5rem;
+font-weight: 800;
+}
+
+.containUserInfo p {
+    font-size: 1.1rem;
+font-weight: 500;
+}
+
+
+.message {
+    font-size: 2rem;
+    padding: 1rem;
+}

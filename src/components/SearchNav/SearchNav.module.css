@@ -1,0 +1,30 @@
+.mainContainerNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+.containForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 0.2rem black;
+  width: 50rem;
+}
+.containForm input{
+  padding-left: 1.5rem;
+  font-size: 2rem;
+  width: 50rem;
+
+}
+.containForm button {
+  background-color: #eed6c5;
+  cursor: pointer;
+  border-left: solid 0.2rem black;
+  font-size: 2rem;
+  width: 7rem;
+  height: 100%;
+ 
+}
