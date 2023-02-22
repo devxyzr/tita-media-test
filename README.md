@@ -9,8 +9,8 @@ Esta es una aplicación web desarrollada utilizando las siguientes tecnologías:
 Aplicación web creada con React y Vite. La aplicación utiliza React para la capa de vista y Vite para la compilación y el servidor de desarrollo.
 
 - Frontend: [React](https://es.reactjs.org/), [Vite](https://vitejs.dev/), CSSmodules
-- Autenticación y registro: Auth0 (https://auth0.com/docs)
-- APIs: Social Network (https://dummyapi.io/)
+- Autenticación y registro: [Auth0](https://auth0.com/docs)
+- APIs: [Social Network](https://dummyapi.io/)
 
 ## Autenticación y Registro con Auth0
 
