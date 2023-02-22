@@ -8,9 +8,9 @@ Esta es una aplicación web desarrollada utilizando las siguientes tecnologías:
 
 Aplicación web creada con React y Vite. La aplicación utiliza React para la capa de vista y Vite para la compilación y el servidor de desarrollo.
 
-- Frontend: React, Vite, CSSmodules (https://es.reactjs.org/) (https://vitejs.dev/)
-- Autenticación y registro: Auth0 (https://auth0.com/docs)
-- APIs: Social Network (https://dummyapi.io/)
+- Frontend: [React](https://es.reactjs.org/), [Vite](https://vitejs.dev/), CSSmodules
+- Autenticación y registro: [Auth0](https://auth0.com/docs)
+- APIs: [Social Network](https://dummyapi.io/)
 
 ## Autenticación y Registro con Auth0
 
@@ -33,8 +33,9 @@ Para instalar la aplicación en tu entorno local, sigue los siguientes pasos:
 
 3. Ejecuta el siguiente comando para instalar todas las dependencias necesarias:
 
+```
 npm install
-
+```
 Este comando instalará todas las dependencias listadas en el archivo `package.json`.
 
 ## Uso
@@ -44,9 +45,9 @@ Para ejecutar la aplicación en tu entorno local, sigue los siguientes pasos:
 1. Abre una terminal y navega hasta la carpeta de la aplicación.
 
 2. Ejecuta el siguiente comando para iniciar el servidor de desarrollo:
-
+```
 npm run dev
-
+```
 Este comando iniciará el servidor de desarrollo en el puerto 3000.
 
 3. Abre tu navegador web y ve a la siguiente dirección:
