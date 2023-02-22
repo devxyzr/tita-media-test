@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import SearchIcon from '@mui/icons-material/Search';
+import BsSearch from 'react-icons/bs';
 import { SocialMediaUsersContext } from '../../commons';
 import { useGetSocialMediaPost } from '../../hooks/useGetSocialMediaPost';
 import styles from './SearchNav.module.css';
@@ -32,7 +32,7 @@ export const SearchNav = () => {
               query();
             }}
           >
-            <SearchIcon />
+            <BsSearch />
           </button>
         </form>
       </div>
